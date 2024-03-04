@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES2017",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmitOnError": true,
+    "module": "commonjs",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "$app": ["./src/app.js"],
+      "$models/*": ["./src/models/*"],
+      "$errors/*": ["./src/errors/*"],
+      "$shared/*": ["./src/shared/*"],
+      "$modules/*": ["./src/modules/*"],
+    }
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": [
+    "dist"
+  ]
+}
