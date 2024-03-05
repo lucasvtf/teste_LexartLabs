@@ -6,7 +6,6 @@ const development = {
   database: process.env.DB_NAME,
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
-  timezone: 'America/Sao_Paulo',
   dialect: 'postgres',
   define: {
     timestamp: true,

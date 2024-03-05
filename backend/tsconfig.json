@@ -11,14 +11,10 @@
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
     "skipLibCheck": true,
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
-      "$app": ["./src/app.js"],
-      "$models/*": ["./src/models/*"],
-      "$errors/*": ["./src/errors/*"],
-      "$shared/*": ["./src/shared/*"],
-      "$modules/*": ["./src/modules/*"],
-    }
+      "*": ["node_modules/*"]
+    },
   },
   "include": [
     "src/**/*",
