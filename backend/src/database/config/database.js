@@ -17,21 +17,4 @@ const development = {
   logging: false,
 };
 
-const production = {
-  username: process.env.POSTGRES_USER,
-  password: process.env.POSTGRES_PASSWORD,
-  database: process.env.POSTGRES_DATABASE,
-  host: process.env.POSTGRES_HOST,
-  port: process.env.DB_PORT,
-  dialect: 'postgres',
-  define: {
-    timestamp: true,
-    underscored: true,
-    createdAt: 'created_at',
-    updatedAt: 'updated_at',
-  },
-  seederStorage: 'sequelize',
-  logging: false,
-};
-
 module.exports = { development };

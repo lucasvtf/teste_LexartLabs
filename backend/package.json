@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "nodemon --watch \"src\" --exec \"ts-node src/index.ts\" -e ts",
     "start": "node dist/indes.js",
-    "build": "tsc",
-    "vercel-build": "npx sequelize-cli db:migrate"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Lucas Victor",
