@@ -5,6 +5,7 @@ import 'dotenv/config';
 import cors from 'cors';
 import userRoutes from './routes/UserRoutes';
 import errorHandler from './utils/errorHandler';
+console.log(`Database URL: ${process.env.POSTGRES_URL}`);
 
 const app = express();
 
