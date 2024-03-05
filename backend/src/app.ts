@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(cors({ origin: '*' }));
 
-app.get('/', (req, res) => res.json({ ok: true }));
+app.get('/ok', (req, res) => res.json({ ok: true }));
 app.use(userRoutes);
 app.use(errorHandler);
 
