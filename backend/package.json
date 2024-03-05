@@ -12,6 +12,7 @@
   "author": "Lucas Victor",
   "license": "ISC",
   "dependencies": {
+    "@types/pg": "^8.11.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
