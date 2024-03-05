@@ -17,4 +17,8 @@ const development = {
   logging: false,
 };
 
-module.exports = { development };
+const production = {
+  use_env_variable: process.env.POSTGRES_URL,
+};
+
+module.exports = { development, production };
